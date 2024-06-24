@@ -1,6 +1,6 @@
 name: cssinline
 description: Project to provide helpful handlers to embed CSS styles into HTML elements style attribute.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/fabricio-godoi/cssinline
 
 environment:
