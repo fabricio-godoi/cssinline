@@ -46,9 +46,9 @@ int main(List<String> arguments) {
         outputPath = arg.split('=').last;
       } else if ((i + 1) < args.length) {
         outputPath = args[i + 1];
-        args.remove(i + 1);
+        args.removeAt(i + 1);
       }
-      args.remove(i);
+      args.removeAt(i);
       break;
     }
   }
