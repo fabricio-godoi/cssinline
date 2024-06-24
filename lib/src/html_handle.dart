@@ -4,10 +4,14 @@ import 'package:html/parser.dart';
 
 import 'package:html/dom.dart';
 
+/// {@template cssinline:htmlhandle}
+/// Methods and handles for HTML
+/// {@endtemplate}
 class HTMLHandle {
-  final _cssHandle = const CSSHandle();
-
+  /// {@macro cssinline:htmlhandle}
   const HTMLHandle();
+
+  final _cssHandle = const CSSHandle();
 
   /// Loop through a list of html files and remove all css definitions
   /// to inline style configuration for each html element.

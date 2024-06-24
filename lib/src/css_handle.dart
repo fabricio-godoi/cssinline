@@ -7,7 +7,11 @@ import 'package:csslib/parser.dart' as css;
 
 final Map<String, StyleSheet> cssFiles = {};
 
+/// {@template cssinline:csshandle}
+/// Methods and handles for CSS
+/// {@endtemplate}
 class CSSHandle {
+  /// {@macro cssinline:csshandle}
   const CSSHandle();
 
   /// Parse `link` to get CSS data from file
